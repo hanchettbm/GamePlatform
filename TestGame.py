@@ -6,7 +6,7 @@ import arcade
 
 # Constants
 SCREEN_WIDTH = 600
-SCREEN_HEIGHT = 800
+SCREEN_HEIGHT = 600
 SCREEN_TITLE = "Welcome to Arcade"
 RADIUS = 150
 
@@ -14,7 +14,7 @@ RADIUS = 150
 arcade.open_window(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
 
 # Set the background color
-arcade.set_background_color(arcade.color.WHITE)
+arcade.set_background_color(arcade.color.LAVENDER)
 
 # Clear the screen and start drawing
 arcade.start_render()
