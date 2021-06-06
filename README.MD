@@ -1,30 +1,37 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+The game that I developed is a recreation of Pong from Atari. It is a simple game that has 2 paddles or bars on either side of the screen. Each one moves up and down,and tries to hit a ball, if it hit the ball bounces back toward the other player, if it passes the other player and goes off the screen, a point is earned and the ball resets. You move the paddles with the up and down arrow keys, and the "S" and "W" keys for the other player. 
 
-{Provide a description the game that you wrote. Describe how to play your game.}
+**Purpose**  
+My purpose for wiritng this software was to understand basics in game development and to practice python coding with arcade. I wanted to create the code to something I knew well and understood the rules of, so that I could focus more on controling the code for my desired output. 
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the game being played and a walkthrough of the code.}
-
+**Demonstration**  
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+**Developer Tools**
+* Visual Studio Code on Macbook Air
+* GitHub
 
-{Describe the programming language that you used and any libraries.}
+**Programming Language and Library Tools**  
+* Python 3.9.1 
+* Python Arcade
+* Python Random library
+* Git
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Python Arcade Examples](https://arcade.academy/examples/index.html)
+* [Python Arcade Sprite tutorial](https://realpython.com/arcade-python-game-framework/)
+* [Python Arcade Text Example](https://stackoverflow.com/questions/61398292/how-to-change-the-content-of-text-in-an-arcade-window)
+* [Python Arcade Bouncing Ball Tutorial](https://arcade.academy/examples/bouncing_balls.html#bouncing-balls)
+
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Fix Bug where collision is not detected if ball is moving too fast.
+* Add a winner and stop game after a certain amount of points.
+* Add sound for point scored.
+* Allow Game state to be saved. 
+* Add option for different level difficutly. 
